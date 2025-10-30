@@ -43,6 +43,6 @@ phases:
           --cache-control "no-cache, no-store, must-revalidate"
       
       - echo "Files uploaded successfully"
-      - echo "S3 Website URL - http://$S3_BUCKET.s3-website-us-east-1.amazonaws.com"
+      - echo "S3 Website URL - http://$S3_BUCKET.s3-website-ap-northeast-2.amazonaws.com"
       
       - echo "Deployment completed successfully!"
