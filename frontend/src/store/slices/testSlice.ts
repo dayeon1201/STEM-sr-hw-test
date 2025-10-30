@@ -101,7 +101,7 @@ const testSlice = createSlice({
     // Reset test (for retaking; set currentPage to "1")
     resetTest: (state) => {
       state.answers = {};
-      state.currentPage = state.currentPage - 1;
+      state.currentPage = 1;
       state.result = null;
       state.error = null;
     },
